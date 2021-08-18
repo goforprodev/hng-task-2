@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodev | portfolio</title>
+    <!-- GOOGLE + FONTS + OPENSANS FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,700&display=swap" rel="stylesheet"> 
+    <!-- CUSTOM CSS LINK  -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--  -->
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <nav id="navbar" class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                <a href="https://training.zuri.team/">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAAAdCAYAAACjQS76AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARDSURBVHgB7ZrBbtNAEIZ/p3Avx0pI3d4qOJBW3GuegPIENU9A+wQ1T9D2CVKeoOUJEu6oLRKquGVvPSZcEAeI8ci2Ml6PHRJ7nTTaTxrVu2uvd3Znd8aTAg6Hw+FwOBwOh8PhcKwCKpV1RKF53bqxbGIFCGOJ5pAe2uGMvfMIixNiPv1IfNiF63aMZuin/Q2RGNdS6GB1od3GJ/sd1guuW50Nk+FjuhFULB+wJBY1qp+wzzgWzcojrBeaXd+hPtTHmJW/YIVRyLuFIdqLcVQs50jcV9NxQuYq2nTnHIXmdSOXR7o05U6tQUbUZqzRFss2qrVllvs7Rf5U+hjLwLiHFqSfihkcbrK2/oznuuk1GfF2es8Zu+cQ7SKNPUive8K9NFfDVG4xjWl4H9vsGa5bwOq7rP7KeG/WN71foUjZWvis/oyN95b1mdVLSPplY6ha/wI+im5Pgp9kvtGmjD7KniOFRqycTT4/TQI0y6yTSiE/9lN2zTdI1xg7l1ujvF3y/pDV+8jPeb+kbykMKVuLwHhuWDFeaR6GFWMYme8sO6moox4rUwD4BvagGGAlcisVhEKdQnKa8LGPMQ2Y637WK0yNQwtti8ROClNj1EZbV+izj/IYmuoL61ZmVKcouj0Nu9BCXKTvauPrchEGSMb4KS2b83QSy7NUKAWiUR8dyw4T/qX4FotB43/G+tSs7RW7DpDX7yJ9zotlD3PoF2C+RGcT7k86ygl+9Adolnnd35VwD9chFNp91HN/JOZpd8jaRhXj8Vl9YDyjjOdCyK79f+ao4P6eCDedsrJGcnLY5gI1d/XD/osAnnfgeRj/mUTfnt/cX6JZToQ6xa6vhfYB6kGnt5nD4uVFQgZ6Xht1uuRexa4/C+06lZzhm0bVMzp6D/tuj6iV/HvYf9mLD+SArqN4v2zElhUb2fbWzX2TG0IbZXNBy5KzYyweL46xOpTpUBgjj6nohPJZWUofzPviuoHqTJITSnCNnhc+vN71YQ8ekBN7wj0Kq/8BUgXf7EdCu4KQt+ywxpDVa8gxwiwO2DVN5hksM4kiv6wtmni2jZpPOumqWJn0v8Ljhv/U4yPxZNl/QVC5Lz2UGZUZhCnIeQkpaOMvPsY0OVgWfDeK53nLdBHcvSokeR4ypEx/6ye1ZS6Rd/sBEh3J1ZemGpr4L4VLo+ynLydrtr7gXqdzLdZH3tibRNewywB5wyKd6esswFT/VYqL5iXLT+qSdo0ZMdWiDCDnZLJ6q2x9/T6Ij6tcQE4GFW1MTrbufmjYJ4T8QTNAsiCP2agIjSSXRTrSJh2kf2nOKY4s6OehWRSSHarR8mQ+dHfVZONptxP93fw9+XW9c6eXsZiku0Lx33bWFYXEHWYfI5QYfeybyNECZDAUI/pCPcWPVb8bOhwiZgafAnSeubf1i4djjTlHdSag7Ccqh6MSOq0uMU0nkNBpJblF/ANqkrHSvAMviQAAAABJRU5ErkJggg==" alt="zurilogo">
+                    </a>
+                </div>
+                <div class="dark-mode">
+                    <a id="dark">goDark()</a>
+                </div>
+            </div>
+        </nav>
+    <section class="header">
+        <div class="header-content">
+            <div class="header-content-text">
+                <h1>Hey, I'm <span id="name"></span>, A
+                    <span class="typer" id="main" data-words="'Frontend Developer','Backend Developer','UI/UX Designer'" data-delay="100" data-deleteDelay="1000" data-colors="#08605F,#010e54,purple"></span>
+                    <span class="cursor" data-owner="main"></span>
+                  </h1>
+            </div>
+            <button class="btn"><a href="mailto:goforprodev@gmail.com">Hire Me</a></button>
+        </div>
+        <div class="header-blob">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/1000/svg">
+                <path fill="#FF0066" d="M60.6,-50.9C72.1,-33.9,70.5,-9.1,63,10.7C55.6,30.5,42.2,45.2,29,46.3C15.7,47.3,2.5,34.7,-14.4,27.5C-31.4,20.3,-52.1,18.4,-60.6,6.6C-69.1,-5.3,-65.3,-27.2,-53.2,-44.4C-41.1,-61.5,-20.5,-74,2,-75.6C24.6,-77.2,49.1,-68,60.6,-50.9Z" transform="translate(100 100)" />
+        </svg>
+        </div>
+    </section>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/promise-okafor-15a3851b5/" target="_blank">LinkedIn /</a>
+        <a href="https://twitter.com/goforprodev" target="_blank">Twitter /</a>
+        <a href="https://github.com/goforprodev" target="_blank">Github</a>
+    </div>
+    </header>
+
+    <main id="main">
+        <!-- about-me -->
+        <section class="about-me">
+            <div class="background">
+                <div class="design">― My Background</div>
+                <div class="background-content">
+                    I’ve gone through a number of phases in my career, and each of them has informed my current work ethos and philosophy. I have excelled in a number of project management roles in diverse industries, and believe that my number one asset is my ability to adapt to any challenge that is thrown my way.
+                </div>
+            </div>
+            <div class="skills">
+                <div class="design">― My Skills</div>
+                <ul class="skills-list">
+                    <li class="list-item">HTML</li>
+                    <li class="list-item">SCSS</li>
+                    <li class="list-item">Javscript</li>
+                    <li class="list-item">Python</li>
+                    <li class="list-item">Figma</li>
+                    <li class="list-item">Teaching</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- resume section -->
+        <section class="resume">
+            <div class="resume-contents">
+                <div class="resume-content-list">
+                    <div class="design">― Work experience</div>
+                    <div></div>
+                    <div class="resume-experience">
+                        <div class="experience">
+                            <div class="title">
+                                UI/UX Designer</div>
+                            <div class="date">Odigital / Aug 2020 - Apr 2021</div>
+                            <div class="description">I provided better design solution to current web applications in other to improve customer satisfaction
+                                I redesigned the website and increased the bounce rate by 40%
+                                I Achieved 8.4 out of 10 in satisfaction evaluations among students</div>
+                        </div>
+                        <div class="experience">
+                            <div class="title">Web Development</div>
+                            <div class="date">Odigital / Aug 2020 - Feb 2021</div>
+                            <div class="description">I used various technologies including Javascript to fix code bugs and optimize corporate website.
+                                I built various web applications one of which includes "odigital.ng"
+                                I led a team of beginner developers to create different web applications</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="resume-content-list">
+                    <div class="design">― INTERNSHIPS</div>
+                    <div></div>
+                    <div class="resume-experience">
+                        <div class="experience">
+                            <div class="title">Front End Development</div>
+                            <div class="date">Odigital / Aug 2020 - Apr 2021</div>
+                            <div class="description">I led the development of front end web applications
+                                I learned and researched on various technologies for improving the front end of corporate websites</div>
+                        </div>
+                        <div class="experience">
+                            <div class="title">FullStack Developmet</div>
+                            <div class="date">Netlight  / May 2021 - Present</div>
+                            <div class="description">I’ve been central to delivering two extensive projects while working at Stilltech, both in the augmented reality space.</div>
+                        </div>
+                        <div class="experience">
+                            <div class="title">Front End Developmet</div>
+                            <div class="date">HNG  / August 2021 - Present</div>
+                            <div class="description">I’ve been central to delivering two extensive projects while working at Stilltech, both in the augmented reality space.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-content-list">
+                    <div class="design">― EDUCATION</div>
+                    <div></div>
+                    <div class="resume-experience">
+                        <div class="experience">
+                            <div class="title">B.Sc LL.B (Hons.), Computer Science</div>
+                            <div class="date">University Of Ibadan (UI) / 2018 - Present</div>
+                            </div>
+                        <div class="experience">
+                            <div class="title">Senior Secondary (XII)</div>
+                            <div class="date">DABITOS COLLEGE /
+                                (WAEC board)
+                                Year of completion: 2017</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="download">
+            <button class="btn-pdf"><a href="https://internshala.com/student/resume_download/B618C235-33A6-4B61-D963-05CB77F86298/13221194">Download pdf version</a>
+            </button>
+            </div>
+        </section>
+        <!-- portfolio section -->
+        <section class="portfolio">
+            <div class="portfolio-item">
+                <div class="portfolio-text">
+                    <div class="design tit">-ODIGITAL</div>
+                    <div class="title">Odigital.ng</div>
+                    <div class="description">
+                        We do the hard work while you make money. Our team makes sure your internet presence stays consistent across all devices. 
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                   <a href="https://odigital.ng/" target="_blank"> <img src="./public/img/img1.PNG" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-text">
+                    <div class="design tit">-DOG-SLIDER</div>
+                    <div class="title">DogSlider.ng</div>
+                    <div class="description">
+                        Dog Slider is a simple web application that displays a slider of a number of breeds of dogs using simple API calls.
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                <a href="https://infinite-dog-slide.netlify.app/" target="_blank"><img src="./public/img/img2.PNG" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-text">
+                    <div class="design tit">-COINGUARD INVEST</div>
+                    <div class="title">Coinguardinvest.com</div>
+                    <div class="description">
+                        We are worldwide investment company who are committed to the principle of revenue maximization & reduction of the financial risks at investing.
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                  <a href="coinguardinvest.com/" target="_blank"><img src="./public/img/img3.PNG" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <!-- quote section -->
+        <section class="quote">
+            <div class="word">
+                “Whenever I am in a difficult situation where there seems to be no way out, I think about all the times I have been in such situations and say to myself: I did it before, so I can do it again.”
+            </div>
+            <div class="person">- Idowu Koyenikan</div>
+        </section>
+
+        <!-- footer section -->
+        <section class="footer">
+            <div class="message">Say Hello.</div>
+            <div class="socials">
+                <div class="design">-SOCIALS</div>
+                <a href="https://www.linkedin.com/in/promise-okafor-15a3851b5/" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/goforprodev" target="_blank">Twitter</a>
+                <a href="https://github.com/goforprodev" target="_blank">Github</a>
+            </div>
+            <div class="contact">
+                <div class="design">-CONTACTS</div>
+                <a href="mailto:goforprodev@gmail.com">goforprodev@gmail.com</a>
+                <a href="tel:08081560989">+23408081560989</a>
+            </div>
+        </section>
+    </main>
+
+    
+      
+ 
+    
+    <!-- typer.js cdn -->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="./public//js/main.js"></script>
+</body>
+</html>
